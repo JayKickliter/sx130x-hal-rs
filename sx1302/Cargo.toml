@@ -1,0 +1,15 @@
+[package]
+name = "sx1302-hal-rs"
+authors = ["C2Rust"]
+version = "0.0.0"
+publish = false
+edition = "2018"
+autobins = false
+
+[lib]
+name = "sx1302_hal_rs"
+path = "lib.rs"
+crate-type = ["staticlib", "rlib"]
+
+[dependencies]
+libc = "0.2"

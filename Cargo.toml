@@ -1,0 +1,13 @@
+[package]
+name = "sx130x-hal-rs"
+version = "0.1.0"
+authors = ["Jay Kickliter <jay@kickliter.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies.sx1301-hal-rs]
+path = "sx1301"
+
+[dependencies.sx1302-hal-rs]
+path = "sx1302"
